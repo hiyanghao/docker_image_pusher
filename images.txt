@@ -10,6 +10,6 @@
 #GitLab极狐
 #--platform=linux/amd64 registry.gitlab.cn/omnibus/gitlab-jh:latest
 #dnf数据库mysql镜像
---platform=linux/amd64 xanderye/dnf-mysql:5.6 
+#--platform=linux/amd64 xanderye/dnf-mysql:5.6 
 #dnf服务server镜像
-#--platform=linux/amd64 xanderye/dnf-server:centos7 
+--platform=linux/amd64 xanderye/dnf-server:centos7 
